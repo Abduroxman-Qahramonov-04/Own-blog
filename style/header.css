@@ -1,0 +1,46 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header-menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.sections_cataloge {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.hamburger div {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 7px;
+}
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+.sections_cataloge a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s all;
+}
+.sections_cataloge a:hover {
+    color: rgb(33, 224, 183);
+    font-size: 19px;
+}
